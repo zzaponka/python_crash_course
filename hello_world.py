@@ -1,4 +1,4 @@
-message = "Hello, Python word!"
+mesage = "Hello, Python word!"
 print(mesage)
 
 message = "Hello, Python Crash Course word!"
