@@ -1,3 +1,4 @@
+# We can use whitespace characters inside strings, you know
 print("Python")
 print("\tPython")
 print("Languages:\nPython\nC\nJavaScript")

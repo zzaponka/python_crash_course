@@ -1,3 +1,5 @@
+# Usual 'Hello, world!' style program
+# Also shows that variable can be re-assigned
 mesage = "Hello, Python word!"
 print(mesage)
 
