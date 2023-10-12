@@ -53,3 +53,8 @@ print(motorcycles)
 print('\nRemoving element by value:')
 motorcycles.remove('yamaha')
 print(motorcycles)
+
+print('\nRemoving element by variable:')
+exclude = 'suzuki'
+motorcycles.remove(exclude)
+print(motorcycles)
