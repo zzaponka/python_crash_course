@@ -23,3 +23,7 @@ print(motorcycles)
 print('\nInserting an element:')
 motorcycles.insert(0, 'ducati')
 print(motorcycles)
+
+print('\nDeleting an element:')
+del motorcycles[0]
+print(motorcycles)
