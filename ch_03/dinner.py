@@ -23,3 +23,21 @@ print(f'Hi, dear {guests[2]}, I would like to invite you to the dinner!')
 print(f'Hi, dear {guests[3]}, I would like to invite you to the dinner!')
 print(f'Hi, dear {guests[4]}, I would like to invite you to the dinner!')
 print(f'Hi, dear {guests[5]}, I would like to invite you to the dinner!')
+
+print('\nOops, our new dinner table would not arrive in time, so we have place only for two guests.')
+person = guests.pop()
+print(f'Dear {person}, I have to cancel my invitation.')
+person = guests.pop()
+print(f'Dear {person}, I have to cancel my invitation.')
+person = guests.pop()
+print(f'Dear {person}, I have to cancel my invitation.')
+person = guests.pop()
+print(f'Dear {person}, I have to cancel my invitation.')
+print(f'\nHi, dear {guests[0]}, I would like to invite you to the dinner!')
+print(f'Hi, dear {guests[1]}, I would like to invite you to the dinner!')
+
+del guests[1]
+del guests[0]
+
+print('\nFinal empty list:')
+print(guests)
