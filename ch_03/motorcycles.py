@@ -45,3 +45,11 @@ print('\nPopping element by index:')
 second_moto = motorcycles.pop(1)
 print(motorcycles)
 print(f'Popped element: {second_moto}')
+
+print('\nInitial list back again:')
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+print('\nRemoving element by value:')
+motorcycles.remove('yamaha')
+print(motorcycles)
