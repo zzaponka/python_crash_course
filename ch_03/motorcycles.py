@@ -31,3 +31,8 @@ print(motorcycles)
 print('\nDeleting the element in the middle of the list:')
 del motorcycles[1]
 print(motorcycles)
+
+print('\nUsing popped element:')
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(f'Popped element: {popped_motorcycle}')
