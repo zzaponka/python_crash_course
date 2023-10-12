@@ -27,3 +27,7 @@ print(motorcycles)
 print('\nDeleting an element:')
 del motorcycles[0]
 print(motorcycles)
+
+print('\nDeleting the element in the middle of the list:')
+del motorcycles[1]
+print(motorcycles)
