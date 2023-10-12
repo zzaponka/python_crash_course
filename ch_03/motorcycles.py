@@ -36,3 +36,12 @@ print('\nUsing popped element:')
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(f'Popped element: {popped_motorcycle}')
+
+print('\nInitial list back:')
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+print('\nPopping element by index:')
+second_moto = motorcycles.pop(1)
+print(motorcycles)
+print(f'Popped element: {second_moto}')
