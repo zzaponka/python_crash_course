@@ -1,0 +1,5 @@
+print('Creating a list from 1 to 1M:')
+million = list(range(1, 1000001))
+print(f'Min value: {min(million)}')
+print(f'Max value: {max(million)}')
+print('Sum value: ' f'{"{:,}".format(sum(million))}')
