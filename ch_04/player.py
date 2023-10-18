@@ -1,0 +1,13 @@
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print('Printing a full list:')
+print(players)
+print('Printing a slice of a list (players[0:3]):')
+print(players[0:3])
+print('Printing a slice of a list (players[1:4]):')
+print(players[1:4])
+print('Printing a slice of a list from the beginning (players[:4]):')
+print(players[:4])
+print('Printing a slice of a list to the end (players[2:]):')
+print(players[2:])
+print('Printing a slice of a list counting from the end (players[-3:]):')
+print(players[-3:])
