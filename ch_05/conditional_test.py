@@ -13,3 +13,7 @@ print('car = \'Audi\'')
 car = 'Audi'
 print('Checking car == \'audi\':')
 print(car == 'audi')
+
+print('\nCase insensitive test')
+print('Checking car.lower() == \'audi\':')
+print(car.lower() == 'audi')
