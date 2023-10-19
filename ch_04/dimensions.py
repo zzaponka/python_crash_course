@@ -1,5 +1,8 @@
 dimensions = (200, 50)
+print('Tuple elements values:')
 print(dimensions[0])
 print(dimensions[1])
 
-dimensions[0] = 250
+print('\nPrinting tuple with for loop:')
+for dimension in dimensions:
+    print(dimension)
